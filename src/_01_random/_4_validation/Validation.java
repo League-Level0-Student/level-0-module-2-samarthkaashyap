@@ -14,21 +14,20 @@ public class Validation {
 		for (int x = 0; x < 10; x+=1) {
 		int randomNumber = randomMaker.nextInt(5);
 		
-		System.out.println(randomNumber);
 		if (randomNumber == 1) {
-			System.out.print("You are looking good today.");
+			System.out.println("You are looking good today.");
 		}
 		if (randomNumber == 2) {
-			System.out.print("You are smart.");
+			System.out.println("You are smart.");
 		}
 		if (randomNumber == 3) {
-			System.out.print("You are good at video games.");
+			System.out.println("You are good at video games.");
 		}
 		if (randomNumber == 4) {
-			System.out.print("You are awesome.");
+			System.out.println("You are awesome.");
 		}
 		if (randomNumber == 0) {
-			System.out.print("You are good at programming.");
+			System.out.println("You are good at programming.");
 		}
 		}
 
