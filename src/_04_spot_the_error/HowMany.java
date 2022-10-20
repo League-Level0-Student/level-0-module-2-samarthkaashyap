@@ -2,6 +2,8 @@ package _04_spot_the_error;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class HowMany {
 	
 	// This program is supposed to print a random number between 1 and 100.
@@ -10,7 +12,7 @@ public class HowMany {
 	
 	public static void main(String[] args) {
 		int number = 0;
-		System.out.println(number);
+		System.out.println(getRandomNumber());
 	}
 	
 	public static int getRandomNumber() {

@@ -10,9 +10,9 @@ public class FixTheRandom {
 	
 	public static void main(String[] args) {
 		
-		Random random = new Random();
+		Random ran = new Random();
 		
-		int numnber = random.nextInt(5);
+		int numnber = ran.nextInt(5)+5;
 		
 		if (numnber == 5) {
 			System.out.println("FIVE");
